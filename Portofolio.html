@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gunaryo Muhammad Isra | AI Specialist</title>
+  <meta name="description" content="Portofolio pribadi Gunaryo Muhammad Isra - AI Specialist & Student of Telecom Access Network Engineering" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            obsidian: '#0A0E17',
+            neonCyan: '#00F2FE',
+            neonViolet: '#4FACFE'
+          },
+          boxShadow: {
+            neon: '0 0 0 1px rgba(0,242,254,.35), 0 0 30px rgba(0,242,254,.15), 0 12px 40px rgba(0,0,0,.45)'
+          },
+          animation: {
+            float: 'float 7s ease-in-out infinite',
+            pulseSoft: 'pulseSoft 2.4s ease-in-out infinite',
+            glowMove: 'glowMove 16s ease-in-out infinite'
+          },
+          keyframes: {
+            float: {
+              '0%,100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-8px)' }
+            },
+            pulseSoft: {
+              '0%,100%': { opacity: 1 },
+              '50%': { opacity: .65 }
+            },
+            glowMove: {
+              '0%,100%': { transform: 'translate(0,0) scale(1)' },
+              '50%': { transform: 'translate(30px,-20px) scale(1.08)' }
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      background: #090D16;
+      color: #EAF4FF;
+    }
+    .glass {
+      background: linear-gradient(145deg, rgba(16, 24, 38, 0.64), rgba(9, 14, 23, 0.52));
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      backdrop-filter: blur(16px);
+    }
+    .bento-card {
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+      will-change: transform;
+    }
+    .bento-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(0, 242, 254, 0.45);
+      box-shadow: 0 0 0 1px rgba(0, 242, 254, 0.35), 0 0 28px rgba(79, 172, 254, 0.24), 0 20px 50px rgba(0,0,0,.45);
+    }
+    .title-gradient {
+      background: linear-gradient(90deg, #c2a86a 0%, #00f2fe 48%, #7de3ff 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .timeline-line::before {
+      content: '';
+      position: absolute;
+      left: 11px;
+      top: 8px;
+      bottom: -8px;
+      width: 2px;
+      background: linear-gradient(180deg, rgba(0,242,254,.85), rgba(79,172,254,.25));
+    }
+  </style>
+</head>
+<body class="font-sans antialiased">
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="absolute -top-32 -left-24 h-80 w-80 rounded-full bg-cyan-400/20 blur-3xl animate-glowMove"></div>
+    <div class="absolute bottom-0 right-0 h-[26rem] w-[26rem] rounded-full bg-blue-400/20 blur-3xl animate-glowMove" style="animation-delay:-6s"></div>
+  </div>
+
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-[#090D16]/65 backdrop-blur-xl">
+    <nav class="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 md:px-6">
+      <div>
+        <p class="text-lg font-extrabold tracking-wide title-gradient">Gunaryo M. Isra</p>
+      </div>
+      <div class="hidden items-center gap-3 md:flex">
+        <span class="inline-flex items-center gap-2 rounded-full border border-emerald-300/40 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
+          <span class="h-2 w-2 rounded-full bg-emerald-300 animate-pulseSoft"></span>
+          Available for AI Collaboration
+        </span>
+      </div>
+      <div class="hidden gap-4 text-sm text-slate-300 md:flex">
+        <a href="#about" class="hover:text-cyan-300">About</a>
+        <a href="#experience" class="hover:text-cyan-300">Experience</a>
+        <a href="#contact" class="hover:text-cyan-300">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto w-full max-w-7xl space-y-8 px-4 pb-28 pt-8 md:px-6 md:pt-10">
+    <section class="grid gap-4 lg:grid-cols-12">
+      <div class="glass bento-card col-span-12 rounded-3xl p-6 md:p-8 lg:col-span-8">
+        <p class="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-cyan-300/10 px-3 py-1 text-xs text-cyan-200">
+          <i data-lucide="sparkles" class="h-3.5 w-3.5"></i> AI / Cyberpunk Portfolio
+        </p>
+        <h1 class="text-3xl font-extrabold leading-tight md:text-5xl">
+          <span class="title-gradient">Artificial Intelligence Specialist</span>
+          <span class="block text-slate-100">& Network Engineer</span>
+        </h1>
+        <p class="mt-4 max-w-2xl text-sm leading-relaxed text-slate-300 md:text-base">
+          Saya adalah siswa Teknik Jaringan Akses Telekomunikasi di SMK Telkom Sidoarjo yang berfokus pada bidang Artificial Intelligence (AI). Memiliki minat tinggi dalam pengembangan dan penerapan teknologi AI, serta terus beradaptasi dengan inovasi terbaru.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://wa.me/6285733160552" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400 px-4 py-2.5 text-sm font-semibold text-slate-900 hover:brightness-110">
+            <i data-lucide="message-circle" class="h-4 w-4"></i> Hubungi Saya via WA
+          </a>
+          <a download="Gunaryo-Muhammad-Isra-CV.txt" href="data:text/plain;charset=utf-8,Nama%3A%20Gunaryo%20Muhammad%20Isra%0ATitle%3A%20AI%20Specialist%20%26%20Student%20of%20Telecom%20Access%20Network%20Engineering%0AInstitusi%3A%20SMK%20Telkom%20Sidoarjo%20(2024-Sekarang)%0ALokasi%3A%20Lingkar%20Timur%2C%20Sidoarjo%2C%20Jawa%20Timur%0AEmail%3A%20gunaryoyo%40gmail.com%0AWhatsApp%3A%20085733160552" class="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-4 py-2.5 text-sm font-semibold text-slate-100 hover:border-cyan-300/60 hover:text-cyan-200">
+            <i data-lucide="download" class="h-4 w-4"></i> Download CV
+          </a>
+          <a href="#skills" class="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-4 py-2.5 text-sm font-semibold text-slate-100 hover:border-cyan-300/60 hover:text-cyan-200">
+            <i data-lucide="layers" class="h-4 w-4"></i> Lihat Keahlian
+          </a>
+        </div>
+      </div>
+
+      <div class="glass bento-card col-span-12 rounded-3xl p-6 lg:col-span-4">
+        <div class="mb-3 inline-flex rounded-full border border-cyan-300/30 bg-cyan-300/10 p-3 text-cyan-300">
+          <i data-lucide="bot" class="h-7 w-7"></i>
+        </div>
+        <h2 class="text-lg font-semibold text-slate-100">Gunaryo Muhammad Isra</h2>
+        <p class="mt-1 text-sm text-slate-300">AI Specialist & Student of Telecom Access Network Engineering</p>
+        <div class="mt-4 space-y-3 text-sm text-slate-300">
+          <p class="flex items-center gap-2"><i data-lucide="school" class="h-4 w-4 text-cyan-300"></i>SMK Telkom Sidoarjo (2024 - Sekarang)</p>
+          <p class="flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4 text-cyan-300"></i>Lingkar Timur, Sidoarjo, Jawa Timur</p>
+          <p class="flex items-center gap-2"><i data-lucide="mail" class="h-4 w-4 text-cyan-300"></i>gunaryoyo@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="grid gap-4 md:grid-cols-2 lg:grid-cols-12">
+      <article class="glass bento-card rounded-3xl p-6 md:col-span-2 lg:col-span-5">
+        <h3 class="mb-3 text-lg font-bold text-slate-100">About Me</h3>
+        <p class="text-sm leading-relaxed text-slate-300">
+          Berasal dari SMK Telkom Sidoarjo, saya berkembang di persimpangan teknologi jaringan telekomunikasi dan AI modern. Fokus saya ada pada pembentukan sistem data yang presisi, terstruktur, dan siap digunakan untuk pengambilan keputusan yang cepat dan akurat.
+        </p>
+      </article>
+
+      <article id="skills" class="glass bento-card rounded-3xl p-6 md:col-span-1 lg:col-span-4">
+        <h3 class="mb-3 text-lg font-bold text-slate-100">Core Competencies</h3>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="rounded-full border border-cyan-300/40 bg-cyan-300/10 px-3 py-1 text-cyan-200">AI-Driven Data Structuring</span>
+          <span class="rounded-full border border-blue-300/40 bg-blue-300/10 px-3 py-1 text-blue-200">Fiber Optics</span>
+          <span class="rounded-full border border-sky-300/40 bg-sky-300/10 px-3 py-1 text-sky-200">Telecom Infrastructure</span>
+          <span class="rounded-full border border-indigo-300/40 bg-indigo-300/10 px-3 py-1 text-indigo-200">AI Prompting / Agentic Control</span>
+          <span class="rounded-full border border-cyan-300/40 bg-cyan-300/10 px-3 py-1 text-cyan-200">Networking Maintenance</span>
+        </div>
+      </article>
+
+      <article class="glass bento-card rounded-3xl p-6 md:col-span-1 lg:col-span-3">
+        <h3 class="mb-4 text-lg font-bold text-slate-100">Soft Skills</h3>
+        <div class="space-y-3 text-xs text-slate-300">
+          <div><div class="mb-1 flex justify-between"><span>Communication</span><span>90%</span></div><div class="h-2 rounded-full bg-white/10"><div class="h-full w-[90%] rounded-full bg-gradient-to-r from-cyan-300 to-blue-400"></div></div></div>
+          <div><div class="mb-1 flex justify-between"><span>Teamwork</span><span>88%</span></div><div class="h-2 rounded-full bg-white/10"><div class="h-full w-[88%] rounded-full bg-gradient-to-r from-cyan-300 to-blue-400"></div></div></div>
+          <div><div class="mb-1 flex justify-between"><span>Problem Solving</span><span>92%</span></div><div class="h-2 rounded-full bg-white/10"><div class="h-full w-[92%] rounded-full bg-gradient-to-r from-cyan-300 to-blue-400"></div></div></div>
+          <div><div class="mb-1 flex justify-between"><span>Adaptation</span><span>91%</span></div><div class="h-2 rounded-full bg-white/10"><div class="h-full w-[91%] rounded-full bg-gradient-to-r from-cyan-300 to-blue-400"></div></div></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="experience" class="glass bento-card rounded-3xl p-6 md:p-8">
+      <h3 class="mb-6 text-xl font-bold text-slate-100">Experience Timeline</h3>
+      <div class="space-y-6">
+        <div class="timeline-line relative pl-10">
+          <span class="absolute left-0 top-1.5 h-6 w-6 rounded-full border border-cyan-200/60 bg-cyan-300/20"></span>
+          <p class="text-xs uppercase tracking-wider text-cyan-200">2024 - Sekarang</p>
+          <h4 class="mt-1 text-base font-semibold text-slate-100">Digital Talent Program | SMK Telkom Sidoarjo</h4>
+          <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-slate-300">
+            <li>AI-Driven Data Structuring: Mengolah dan menganalisis data mentah menggunakan teknologi AI untuk output akurat, presisi, dan terstruktur.</li>
+          </ul>
+        </div>
+        <div class="relative pl-10">
+          <span class="absolute left-0 top-1.5 h-6 w-6 rounded-full border border-blue-200/60 bg-blue-300/20"></span>
+          <p class="text-xs uppercase tracking-wider text-blue-200">2025 - Sekarang</p>
+          <h4 class="mt-1 text-base font-semibold text-slate-100">Anggota KOMDIS | SMK Telkom Sidoarjo</h4>
+          <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-slate-300">
+            <li>Enforcing Discipline & Rules: Mengawasi dan memelihara kedisiplinan serta kepatuhan tata tertib siswa secara konsisten.</li>
+            <li>Conflict Resolution & Leadership: Mengelola dan menyelesaikan potensi pelanggaran siswa dengan pendekatan tegas, adil, dan bertanggung jawab.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid gap-4 md:grid-cols-2">
+      <article class="glass bento-card rounded-3xl p-6">
+        <h3 class="mb-4 text-lg font-bold text-slate-100">AI & Telecom Showcase</h3>
+        <div class="space-y-3 text-sm text-slate-300">
+          <div class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 p-3">
+            <span class="inline-flex items-center gap-2"><i data-lucide="brain-circuit" class="h-4 w-4 text-cyan-300"></i>AI Data Structuring</span>
+            <span class="text-cyan-200">Expertise</span>
+          </div>
+          <div class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 p-3">
+            <span class="inline-flex items-center gap-2"><i data-lucide="network" class="h-4 w-4 text-cyan-300"></i>Telecom Architecture</span>
+            <span class="text-cyan-200">Advanced</span>
+          </div>
+          <div class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 p-3">
+            <span class="inline-flex items-center gap-2"><i data-lucide="cable" class="h-4 w-4 text-cyan-300"></i>Fiber Optic Testing</span>
+            <span class="text-cyan-200">Advanced</span>
+          </div>
+        </div>
+      </article>
+
+      <article id="contact" class="glass bento-card rounded-3xl p-6">
+        <h3 class="mb-4 text-lg font-bold text-slate-100">Contact & Quick Access</h3>
+        <div class="space-y-3 text-sm text-slate-300">
+          <a href="https://wa.me/6285733160552" target="_blank" rel="noopener" class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 p-3 hover:border-cyan-300/50">
+            <span class="inline-flex items-center gap-2"><i data-lucide="phone-call" class="h-4 w-4 text-cyan-300"></i>WhatsApp</span>
+            <span>085733160552</span>
+          </a>
+          <a href="mailto:gunaryoyo@gmail.com" class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 p-3 hover:border-cyan-300/50">
+            <span class="inline-flex items-center gap-2"><i data-lucide="mail" class="h-4 w-4 text-cyan-300"></i>Email</span>
+            <span>gunaryoyo@gmail.com</span>
+          </a>
+          <div class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 p-3">
+            <span class="inline-flex items-center gap-2"><i data-lucide="map-pin" class="h-4 w-4 text-cyan-300"></i>Location</span>
+            <span>Sidoarjo, Jawa Timur</span>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-black/20 px-4 py-6 text-center text-xs text-slate-400">
+    © <span id="year"></span> Gunaryo Muhammad Isra • Built with futuristic AI/Cyberpunk Bento aesthetics.
+  </footer>
+
+  <nav class="fixed bottom-4 left-1/2 z-50 w-[92%] max-w-md -translate-x-1/2 rounded-2xl border border-white/15 bg-[#0B111D]/80 p-2 backdrop-blur-xl md:hidden">
+    <div class="grid grid-cols-4 gap-1 text-center text-[11px] text-slate-300">
+      <a href="#" class="rounded-xl py-2 hover:bg-white/10">Home</a>
+      <a href="#about" class="rounded-xl py-2 hover:bg-white/10">About</a>
+      <a href="#experience" class="rounded-xl py-2 hover:bg-white/10">Timeline</a>
+      <a href="#contact" class="rounded-xl py-2 hover:bg-white/10">Contact</a>
+    </div>
+  </nav>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    lucide.createIcons();
+  </script>
+</body>
+</html>
